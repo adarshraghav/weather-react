@@ -12,9 +12,11 @@ app.logo{
   background-image: url('./assets/bf.jpg');
   height: inherit;
 }
-
+.app.color{
+  background-color: #f6ce06;
+}
 .app{
-  background-color: #FFFFFF;
+  background-color: #f6ce06;
 }
 .Logo {
   background-image: url('./assets/bf.jpg');
@@ -102,27 +104,19 @@ main{
 
 .weather-box {
   margin-top: 600px;
-  margin-left: 420px;
+  margin-left: 370px;
+  position: absolute;
+  text-align: center;
+}
+
+.pm2box {
+  margin-top: 900px;
+  margin-left: 355px;
   position: absolute;
   text-align: center;
 }
 
 .weather-box .temp {
-  position:relative;
-  display: inline-block;
-  margin: 30px auto;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  padding: 15px 25px;
-  color: rgb(15, 74, 39);
-  font-size: 102px;
-  font-weight: 900;
-  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
-  text-align: center;
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.weather-box .hightemp {
   position:relative;
   display: inline-block;
   margin: 30px auto;
@@ -137,6 +131,44 @@ main{
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.pm2box .hightemp {
+  position:relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: rgb(0, 255, 76);
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.weather-box .hightemp {
+  position:relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: rgb(0, 255, 76);
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.pm2box .aqilabel{
+  font-size: 48px;
+  color: #FFF;
+}
+.weather-box .aqilabel{
+  font-size: 48px;
+  color: #FFF;
+}
 .weather-box .weather {
   color: #FFF;
   font-size: 48px;
